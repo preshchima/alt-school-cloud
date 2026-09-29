@@ -1,0 +1,7 @@
+SSH into vscode from remote vm:
+1. install remote -ssh extension on vm
+2. run vagrant ssh-config on local computer while vagrantfile is found.
+3. nano into your home dir .ssh/config file ~/.ssh/config
+4. paste ouput of ss-congif to file and save
+5. open the remote explorer of remote -ssh extension, reload 
+6. connect to the vm of choice.
